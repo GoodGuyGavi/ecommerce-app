@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import './style.scss'
 
 const MenuItemContainer = ({ children }) => {
-	return <div className='menu-item-container'>{children}</div>
+	return <div className="menu-item-container">{children}</div>
 }
 
 MenuItemContainer.propTypes = {
