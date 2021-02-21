@@ -1,13 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './style.scss'
+import Sections from '../../constants/sections'
+import MenuItem from '../../components/MenuItem'
 
-const MenuItemContainer = ({ children }) => {
-	return <div className="menu-item-container">{children}</div>
-}
-
-MenuItemContainer.propTypes = {
-	children: PropTypes.node,
+const MenuItemContainer = () => {
+	return (
+		<div className="menu-item-container">
+			{Sections.map(({ id, imageUrl, title, size }) => (
+				<MenuItem key={id} imageUrl={imageUrl} title={title} size={size} />
+			))}
+		</div>
+	)
 }
 
 export default MenuItemContainer

@@ -11,13 +11,13 @@ const sections = [
 	},
 	{
 		id: 3,
-		title: 'Womens',
-		imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+		title: 'Jackets',
+		imageUrl: '',
 	},
 	{
 		id: 4,
-		title: 'Mens',
-		imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+		title: 'Womens',
+		imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
 		size: 'large',
 	},
 	{

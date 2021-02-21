@@ -19,8 +19,9 @@ module.exports = {
 		'no-console': [
 			'error',
 			{
-				allow: ['log', 'error', 'time', 'timeEnd', 'endOfLine'],
+				allow: ['log', 'error', 'time', 'timeEnd'],
 			},
 		],
+		'prettier/prettier': ['error', { endOfLine: 'auto' }],
 	},
 }
